@@ -1,0 +1,7 @@
+[alias]
+	s = -c color.status=always status -sb
+	l = log --pretty=format:'%h %an, %ar : %s' -5
+[diff]
+	tool = bc4
+[difftool "bc4"]
+	cmd = \"c:/program files/beyond compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
